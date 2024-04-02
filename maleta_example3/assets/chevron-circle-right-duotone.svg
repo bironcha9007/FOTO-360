@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="chevron-circle-right" class="svg-inline--fa fa-chevron-circle-right fa-w-16" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g class="fa-group">
+    <path class="fa-secondary" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm113.9 265L234.4 408.5a23.9 23.9 0 0 1-33.9 0l-17-17a23.9 23.9 0 0 1 0-33.9L285.1 256 183.5 154.4a23.9 23.9 0 0 1 0-33.9l17-17a23.9 23.9 0 0 1 33.9 0L369.9 239a24 24 0 0 1 0 34z" opacity="0.4" style="fill: rgba(48, 47, 47, 0.933); stroke-width: 6; stroke: rgb(0, 0, 0);"/>
+    <path class="fa-primary" d="M369.9 273L234.4 408.5a23.9 23.9 0 0 1-33.9 0l-17-17a23.9 23.9 0 0 1 0-33.9L285.1 256 183.5 154.4a23.9 23.9 0 0 1 0-33.9l17-17a23.9 23.9 0 0 1 33.9 0L369.9 239a24 24 0 0 1 0 34z" style="fill: rgb(255, 255, 255); fill-opacity: 0.79;"/>
+  </g>
+</svg>

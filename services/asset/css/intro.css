@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Crete+Round:ital@1&display=swap');
+
+body{
+  background-color: black; width: 100%; height: 100%;
+}
+.bg-orange {
+  background-color: rgb(243, 67, 3);
+  color: rgb(8, 8, 8);
+}
+h2 ,h3, h4, h6{
+  font-family:"Consolas", monospace;;
+  color: #ffffff;
+  text-align: left;
+}
+h1{
+  font-family:"Consolas", monospace;;
+  color: #f40000;
+  text-shadow: 1px 1px 1px rgba(48, 0, 0, 0.418);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+ h4{
+  text-shadow: 1px 1px 1px rgba(49, 0, 0, 0.485);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family:"Consolas", monospace;;
+  color: #f40000;
+  text-align: left;
+  font-weight: bold;
+  
+}
+h6{
+  font-size: 1.5rem;
+}
+p{
+  font-family: "Consolas", monospace; color: #ffffff; text-align:justify;white-space: pre-line; margin: 2%;
+}
+.intro_section{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+li>a:hover{
+
+  color: red;
+  /* border: 1px solid black; */
+  /* color: #316ce8; */
+}
+.intro{
+
+  display: flex;
+  align-items: center;
+  align-self:center;
+  /* background-attachment: fixed; */
+  justify-content: center;
+  text-align: justify;
+   flex-direction: column;
+    font-family: 'Crete Round', serif;
+    /* font-size: 60px; */
+    white-space: pre-line;
+   
+}
+.imgs{
+  filter: drop-shadow(1px 1px 1px rgba(50, 0, 0, 0.479));
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.btn-outline-danger{
+  width: 100%;
+   margin: 0px 0px 0px 0px;
+   font-size: 1.5rem;
+   font-weight: bold;
+   font-family: "Consolas", monospace;
+}
+
+.btn-outline-danger:hover{
+  margin: 0px 0px 0px 0px;
+  background-color: #f40000;
+}
+/* body{
+  width: 100%;
+} */
+
+/* navbar */
+/* .ml-auto{
+  /* border: 1px solid; */
+  /* width: 50%; */
+  /* color: black;
+  display: flex; */
+  /* gap: 3vh; */
+  /* justify-content: space-between;
+
+/* } */ 
+/* .btnnn{
+  padding-left: 50%;
+  display: flex;
+  a
+lign-items: center;
+  align-self:center;
+  justify-content: center;
+  text-align: center;
+ 
+   
+   
+    font-family: 'Crete Round', serif;
+} */
+
+.about{
+  min-height: 100vh;
+  background-color: rgba(249, 232, 232, 0.623);
+}
+.services{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.979);
+  padding-top: 20px;
+  
+}
+.featured{
+  margin: 0px;
+  padding: 10px;
+}
+.featured:hover{
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 2px #fcd9fc;
+  /* border: 2px solid rgba(250, 227, 227, 0.979); */
+  transition: all ease 0.3ms;
+}
+.team{
+  min-height: 90vh;
+  background-color: #fadfdf;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+
+	color: #ffffff;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #ffffff;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #ffffff;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #eeeeee;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+footer{
+  background-color: rgb(247, 144, 107);
+}
+.blog{
+  min-height: 90vh;
+}
+.frame {
+  width:100%;
+  margin-top:  5%;
+  text-align: center;
+}
+
+.custom-btn {
+  width: 95%;
+  height: 40px;
+  color: #fff;
+
+  padding: 10px 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family:"Consolas", monospace;;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+
+  outline: none;
+}
+.btn-7 {
+  background: linear-gradient(0deg, rgb(108, 21, 21) 0%, rgb(255, 18, 18) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-7:before,
+  .btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgb(251, 2, 2);
+    
+    transition: all 0.3s ease;
+  }
+  .btn-7:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-7:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-7:hover{
+    color: rgb(251, 2, 2);
+    background: transparent;
+  }
+  .btn-7:hover:before {
+    height: 100%;
+  }
+  .btn-7:hover:after {
+    width: 100%;
+  }
+  .btn-7 span:before,
+  .btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgb(251, 2, 2);
+
+    transition: all 0.3s ease;
+  }
+  .btn-7 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-7 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-7 span:hover:before {
+    height: 100%;
+  }
+  .btn-7 span:hover:after {
+    width: 100%;
+  }
+  
+@media screen and (max-width: 768px) {
+h1{
+  font-size: 1.8rem;
+  margin-bottom: -5%;
+}
+h6{
+  font-size: 1.5rem;
+}
+h4{
+font-size: 1.4rem;
+text-align: center;
+  
+}
+}

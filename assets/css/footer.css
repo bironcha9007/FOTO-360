@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+
+
+
+.footer-section {
+  background: #000000;
+  position: relative;
+  width: 100%;
+
+  bottom: 0;
+  border-top: 1px solid #af0505fd;
+}
+
+
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.single-cta i {
+  color: #ff5e14;
+
+  float: left;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+  margin: 5px;
+}
+
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 14px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.facebook-bg {
+  background: #3B5998;
+}
+
+.twitter-bg {
+  background: #55ACEE;
+}
+
+.google-bg {
+  background: #DD4B39;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #960a0a;
+}
+
+.footer-widget ul {
+  display: flex;
+  /* Usar Flexbox en el contenedor para los ítems de la lista */
+  flex-wrap: wrap;
+  /* Permitir que los ítems se envuelvan en filas adicionales si no caben en una sola fila */
+  list-style: none;
+  /* Quitar los puntos de lista por defecto */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-widget ul li {
+  width: 50%;
+  /* Cada ítem ocupará el 50% del ancho del contenedor */
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: #960a0a;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff1414;
+  padding: 13px 20px;
+  border: 1px solid #af0505fd;
+  top: 0;
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+ .copyright-area {
+display: flex;
+  background: #000000;
+  padding: 5px 0 5px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+  border-top: 1px solid #af0505fd;
+}
+
+
+ .copyright-text p {
+  margin: 10px;
+  font-size: 15px;
+  color: #878787;
+}
+.copyright-text p:hover {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #ff0000;
+}
+
+
+.copyright-text p a {
+  color: #ff1414;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  color: #ff1414;
+  font:1rem/1.5 sans-serif;
+}
+
+.footer-menu li a {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+
+.containerh{
+  display: flex;
+  width: 100%;
+  margin: 5%;
+}
+
+/* Estilos del botón flotante */
+/* Estilos del botón flotante */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 60px;
+  right: 0px;
+  width: 40px;
+  height: 80px;
+  background-color: #470000fd;
+  color: #fff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 15px rgba(255, 53, 53, 0.507);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0s linear 0.3s, background-color 0.3s, color 0.3s, transform 0.3s;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+
+  animation: action 1s infinite alternate;
+  z-index: 9999;
+}
+
+.scroll-to-top-btn.show {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s;
+}
+
+/* Efecto de cambio de color al pasar por el botón */
+.scroll-to-top-btn:hover {
+  background-color: #ff0000;
+  /* Cambia el color de fondo al pasar el ratón */
+  color: #000000;
+  /* Cambia el color de la letra al pasar el ratón */
+  box-shadow: 0 2px 25px rgba(230, 0, 0, 0.712);
+}
+
+/* Efecto de levitación suave al hacer clic o enfocar el botón */
+.scroll-to-top-btn:active,
+.scroll-to-top-btn:focus {
+  transform: translateY(-5px);
+  /* Levitación suave al hacer clic o enfocar el botón */
+}
+
+/* Animación de levitación */
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+a.download-link {
+  display: flex;
+
+  background: transparent;
+  color: #cfcfcf;
+  padding: 10px 20px 10px 10px;
+  justify-content: center;
+  /* Reduzco el padding horizontal para evitar que se desborden */
+  font:1rem/1.5 sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+
+  border: 2px solid #bb0707;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 100%;
+  /* Ajusta el ancho del botón al 100% del ancho disponible */
+  box-sizing: border-box;
+  /* Asegura que el ancho incluya el padding y el borde */
+}
+
+a.download-link:hover {
+  background: #e23f3f;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #ec7c7c, 0 0 25px #ec7c7c, 0 0 50px #ec7c7c, 0 0 100px #e44848;
+}
+
+@media(max-width: 850px) {
+  .copyright-text p {
+    font-size: 13px;
+    font-weight: bold;
+
+  }
+  .copyright-text :hover {
+    font-size: 13px;
+    font-weight: bold;
+
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+    margin: 13px;
+}
+}

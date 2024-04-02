@@ -1,0 +1,895 @@
+  @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+  :root {
+
+    /**
+     * colors
+     */
+
+    --smokey-black: hsl(0, 0%, 7%);
+    --eerie-black: hsl(0, 0%, 9%);
+    --radical-red: hsl(346, 100%, 58%);
+    --white_a9: hsla(0, 0%, 100%, 0.09);
+    --white_a15: hsla(0, 0%, 100%, 0.15);
+    --white_a25: hsla(0, 0%, 100%, 0.25);
+    --white_a50: hsla(0, 0%, 100%, 0.5);
+    --white_a70: hsla(0, 0%, 100%, 0.7);
+    --white_a75: hsla(0, 0%, 100%, 0.75);
+    --white_a80: hsla(0, 0%, 100%, 0.8);
+    --jet-1: hsl(0, 0%, 20%);
+    --jet-2: hsl(0, 0%, 16%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+
+    /**
+     * gradient color
+     */
+
+    --gradient-1: linear-gradient(180deg, transparent, var(--smokey-black));
+    --gradient-2: linear-gradient(180deg, var(--smokey-black) 25%, hsla(0, 0%, 0%, 0.6) 80%);
+
+    /**
+     * typography
+     */
+     --ff-consola: "Consolas", monospace;
+    --ff-recoleta: "Recoleta", serif;
+    --ff-gordita: "Gordita", sans-serif;
+
+    --fs-1: 2rem;
+    --fs-2: 3rem;
+    --fs-3: 3.8rem;
+    --fs-4: 2.8rem;
+    --fs-5: 1.6rem;
+    --fs-6: 2.2rem;
+    --fs-7: 2rem;
+    --fs-8: 1.8rem;
+    --fs-9: 1.5rem;
+    --fs-10: 1.4rem;
+    --fs-11: 1.2rem;
+
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+
+    /**
+     * spacing
+     */
+
+    --section-padding: 60px;
+
+    /**
+     * shadow
+     */
+
+    --shadow: 0 12px 30px -10px hsla(0, 0%, 14%, 0.1);
+
+    /**
+     * border radius
+     */
+
+    --radius-circle: 50%;
+    --radius-5: 5px;
+    --radius-25: 25px;
+
+    /**
+     * transition
+     */
+
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease;
+    --transition-3: 1s ease;
+    --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
+    --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+
+  }
+
+  @keyframes typed {
+
+
+    /* string 3, char 1 */
+    0%,
+    1.4482758621% {
+      content: "P";
+    }
+
+    /* string 3, char 2 */
+    1.5492758621%,
+    2.8965517241% {
+      content: "Po";
+    }
+
+    /* string 3, char 3 */
+    2.8975517241%,
+    3.3448275862% {
+      content: "Por";
+    }
+
+    /* string 3, char 4 */
+    3.7458275862%,
+    4.7931034483% {
+      content: "Port";
+    }
+
+    /* string 3, char 5 */
+    5.7941034483%,
+    6.2413793103% {
+      content: "Porta";
+    }
+
+    /* string 3, char 6 */
+    7.2423793103%,
+    8.6896551724% {
+      content: "Portaf";
+    }
+
+    /* string 3, char 7 */
+    8.9906551724%,
+    9.1379310345% {
+      content: "Portafo";
+    }
+
+    /* string 3, char 8 */
+    10.1389310345%,
+    11.5862068966% {
+      content: "Portafol";
+    }
+
+    /* string 3, char 9 */
+    12.9872068966%,
+    13.0344827586% {
+      content: "Portafoli";
+    }
+
+    /* string 3, char 10 */
+    14.6354827586%,
+    15.4827586207% {
+      content: "Portafolio";
+    }
+
+    /* string 3, char 11 */
+    16.9837586207%,
+    17.9310344828% {
+      content: "Portafolio";
+
+
+    }
+
+    18.5533769063%,
+    19% {
+      content: "​";
+    }
+
+    /* string 2, char 1 */
+    20.0699655172%,
+    21.5172413793% {
+      content: "B";
+    }
+
+    /* string 2, char 2 */
+    22.5182413793%,
+    23.9655172414% {
+      content: "Ba";
+    }
+
+    /* string 2, char 3 */
+    24.9665172414%,
+    25.4137931034% {
+      content: "Bay";
+    }
+
+    /* string 2, char 4 */
+    26.4147931034%,
+    27.8620689655% {
+      content: "Bayr";
+    }
+
+    /* string 2, char 5 */
+    28.8630689655%,
+    29.3103448276% {
+      content: "Bayro";
+    }
+
+    /* string 2, char 6 */
+    30.3113448276%,
+    31.7586206897% {
+      content: "Bayron";
+    }
+
+    /* string 2, char 7 */
+    32.7596206897%,
+    33.2068965517% {
+      content: "Bayron ";
+    }
+
+    /* string 2, char 8 */
+    34.2078965517%,
+    35.6551724138% {
+      content: "Bayron C";
+    }
+
+    /* string 2, char 9 */
+    36.6561724138%,
+    37.1034482759% {
+      content: "Bayron Ca";
+    }
+
+    /* string 2, char 10 */
+    38.1044482759%,
+    39.5517241379% {
+      content: "Bayron Cas";
+    }
+
+    /* string 2, char 11 */
+    40.8517241379%,
+    41.5517241379% {
+      content: "Bayron Casti";
+    }
+
+    /* string 2, char 12 */
+    42.8517241379%,
+    43.5517241379% {
+      content: "Bayron Castil";
+    }
+
+    44.8517241379%,
+    45.5517241379% {
+      content: "Bayron Castill";
+    }
+
+    46.2517241379%,
+    47% {
+      content: "Bayron Castillo";
+    }
+
+    48.5533769063%,
+    49% {
+      content: "​";
+    }
+
+    /* string 3, char 1 */
+    50%,
+    51.4482758621% {
+      content: "D";
+    }
+
+    /* string 3, char 2 */
+    52.4492758621%,
+    53.8965517241% {
+      content: "Di";
+    }
+
+    /* string 3, char 3 */
+    54.8975517241%,
+    55.3448275862% {
+      content: "Dis";
+    }
+
+    /* string 3, char 4 */
+    56.3458275862%,
+    57.7931034483% {
+      content: "Dise";
+    }
+
+    /* string 3, char 5 */
+    58.7941034483%,
+    59.2413793103% {
+      content: "Diseñ";
+    }
+
+    /* string 3, char 6 */
+    60.2423793103%,
+    61.6896551724% {
+      content: "Diseña";
+    }
+
+    /* string 3, char 7 */
+    62.6906551724%,
+    63.1379310345% {
+      content: "Diseñad";
+    }
+
+    /* string 3, char 8 */
+    64.1389310345%,
+    65.5862068966% {
+      content: "Diseñado";
+    }
+
+    /* string 3, char 9 */
+    66.9872068966%,
+    67.0344827586% {
+      content: "Diseñador";
+    }
+
+    /* string 3, char 10 */
+    68.6354827586%,
+    69.4827586207% {
+      content: "Diseñador ";
+    }
+
+    /* string 3, char 11 */
+    70.9837586207%,
+    71.9310344828% {
+      content: "Diseñador G";
+
+
+    }
+
+    72.5533769063%,
+    73% {
+      content: "Diseñador Gr​";
+    }
+
+    74.5533769063%,
+    75% {
+      content: "Diseñador Grá​";
+    }
+
+    76.5533769063%,
+    77% {
+      content: "Diseñador Gráf​";
+    }
+
+    78.5533769063%,
+    79% {
+      content: "Diseñador Gráfi​";
+    }
+
+    80.5533769063%,
+    81% {
+      content: "Diseñador Gráfic​";
+    }
+
+    82.5533769063%,
+    83% {
+      content: "Diseñador Gráfico​";
+    }
+
+    84.5533769063%,
+    85% {
+      content: "Diseñador Gráfico.​";
+    }
+
+    86.5533769063%,
+    87% {
+      content: "Diseñador Gráfico..​";
+    }
+
+    88.5533769063%,
+    89% {
+      content: "Programador Full  St​";
+    }
+
+    89.5533769063%,
+    91% {
+      content: "Programador Full  Sta​";
+    }
+
+    92.5533769063%,
+    93% {
+      content: "Programador Full  Stac​";
+    }
+
+    94.5533769063%,
+    95% {
+      content: "Programador Full  Stack​";
+    }
+
+    96.5533769063%,
+    98% {
+      content: " ​";
+    }
+
+
+  }
+
+  @-webkit-keyframes beam-blink {
+    75% {
+      border-color: transparent;
+    }
+  }
+
+  @keyframes beam-blink {
+    75% {
+      border-color: transparent;
+    }
+  }
+
+  .maq {
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #00000000;
+    cursor: pointer;
+    font-size: calc(15px + 2vw);
+    font-family: 'VT323', monospace, sans-serif;
+    color: rgb(255, 25, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 100px;
+    font-family: var(--ff-consola);
+font-weight: var(--fs-7);
+  }
+
+  @media (max-width: 575px) {
+    .maq {
+      font-size: calc(20px + 2vw);
+
+      margin-top: 80px;
+      font-family: var(--ff-consola);
+      font-weight: var(--fs-7);
+
+    }
+  }
+
+  .maq::after {
+    content: "​";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(249, 243, 231, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(255, 246, 230, 0.75);
+  
+    white-space: nowrap;
+    -webkit-animation: typed 12s linear 1s infinite, beam-blink 1s infinite;
+    animation: typed 12s linear 1s infinite, beam-blink 1s infinite;
+
+
+  }
+
+  @media (max-width: 575px) {
+    .maq::after {
+      top: 1;
+      margin-top: 10px;
+    }
+
+  }
+
+  .slider-container {
+    display: flex;
+
+    margin: 10px auto;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .video-slider {
+    position: relative;
+    border-radius: 5px;
+  }
+
+  video {
+    width: 95%;
+    margin: 2%;
+    display: block;
+
+    border-radius: 5px;
+
+ 
+  }
+
+ 
+
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #0000004e;
+    margin: 2%;
+  }
+
+  .thumbnails2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(240, 35, 35, 0);
+    border: 1px solid #0000004e;
+    margin: 2%;
+  }
+
+  .thumbnail {
+    cursor: pointer;
+    margin: 5px;
+    
+
+  }
+
+  .thumbnail img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px; }
+  
+
+  .thumbnail.active img {
+
+    border: 2px solid #ff1111;
+    border-radius: 5px; 
+  }
+
+  .gallery-video {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0%;
+  
+    border-radius: 5px;
+    margin: 5px;
+    margin-top:20px ;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .gallery-video2 {
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 0%;
+  
+  
+
+    
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .titles {
+    margin: 0%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+
+
+  .cont1 {
+    display: flex;
+    width: 48%;
+    margin: 0%;
+
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .cont2 {
+    display: flex;
+    width: 48%;
+
+    margin: 0px;
+
+
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 2%;
+
+  }
+
+  .conte {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .conte2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+  }
+/* Estilos para la burbuja de mensaje */
+.alt-bubble {
+
+  position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+  background-color: rgb(255, 10, 10); /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  font-size: 12px; /* Tamaño de fuente */
+  z-index: 1000; /* Capa superior para asegurar que esté por encima de otros elementos */
+  pointer-events: none; /* Evitar que la burbuja de mensaje bloquee eventos del ratón */
+  max-width: 200px; /* Ancho máximo de la burbuja */
+  white-space: nowrap; /* Evitar el ajuste de texto */
+  overflow: hidden; /* Ocultar el exceso de texto */
+  text-overflow: ellipsis; /* Agregar puntos suspensivos para el texto que no cabe */
+}
+
+/* Estilos adicionales para resaltar la burbuja de mensaje */
+.alt-bubble::after {
+  content: ''; /* Contenido generado */
+  position: absolute; /* Posición absoluta */
+  top: 50%; /* Desde la mitad superior */
+  right: 100%; /* En el borde derecho de la burbuja */
+  margin-top: -5px; /* Ajuste para centrar verticalmente */
+  border-width: 5px; /* Tamaño de la flecha */
+  border-style: solid;
+  border-color: transparent rgba(0, 0, 0, 0.7) transparent transparent; /* Colores de la flecha */
+}
+  .img-cover2 {
+    width: 96%;
+    height: auto;
+
+
+  }
+
+  .img-cover3 {
+    width: 96%;
+    height: auto;
+
+
+  }
+
+
+
+
+
+
+
+
+  .nav label {
+    width: 100px;
+    height: 98%;
+    display: none;
+    position: absolute;
+
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #ff0000;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(203, 57, 57, 0.59);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+  }
+
+
+
+  .nav label:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.59);
+  }
+
+  .nav .next {
+    right: 0;
+  }
+
+  input:checked+.slide-container .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+  }
+
+  input:checked+.slide-container .nav label {
+    display: block;
+  }
+
+  .nav-dots {
+    width: 100%;
+    bottom: 7px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .nav-dots .nav-dot {
+    top: -5px;
+    width: 11px;
+    height: 11px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(255, 61, 61, 0.476);
+  }
+
+  .nav-dots .nav-dot:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+
+  input#img-1:checked~.nav-dots label#img-dot-1,
+  input#img-2:checked~.nav-dots label#img-dot-2,
+  input#img-3:checked~.nav-dots label#img-dot-3,
+  input#img-4:checked~.nav-dots label#img-dot-4,
+  input#img-5:checked~.nav-dots label#img-dot-5,
+  input#img-6:checked~.nav-dots label#img-dot-6 {
+    background: rgb(255, 219, 219);
+  }
+  .thumbnail img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px; }
+  
+
+  .thumbnail.active img {
+
+    border: 2px solid #ff1111;
+    border-radius: 10px; 
+  }
+
+  @media (min-width: 300px) and (max-width: 599px) {
+    .thumbnail img {
+      width: 50px;
+      height: auto;
+      border: 1px solid #f9d4d4;
+      border-radius: 5px; }
+      .thumbnail.active img {
+
+        border: 2px solid #ff1111;
+        border-radius: 10px; 
+      }
+    }
+  
+
+  @media (max-width: 650px) {
+    .gallery-video2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0%;
+      border: 0px solid var(--white_a25);
+      background: rgb(255, 255, 255);
+margin: 0%;
+    }
+    .gallery-video {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0%;
+      border-radius: 0px;
+      border: 0px solid var(--white_a25);
+      background: black;
+margin: 0px;
+    }
+    video {
+      width: 95%;
+      margin: 2%;
+      display: block;
+      border-radius: 5px;
+      box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
+   
+    }
+  
+    .titles {
+      font-size: 1rem;
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .cont1 {
+      display: flex;
+      width: 100%;
+      margin: 0px;
+
+    }
+
+    .cont2 {
+      display: flex;
+      width: 100%;
+margin: 0px;
+    
+      border: 1px solid var(--white_a25);
+      border-radius: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-content: center;
+
+
+    }
+
+    .conte2 {
+      display: flex;
+      width: 100%;
+      height: auto;
+
+    }
+
+    .img-cover2 {
+      width: 96%;
+      height: auto;
+
+
+    }
+
+    .img-cover3 {
+      width: 96%;
+      height: auto;
+
+
+    }
+
+    .nav-dots {
+      width: 100%;
+      bottom: 5px;
+      height: 11px;
+      display: block;
+      position: absolute;
+      text-align: center;
+    }
+
+    .nav label {
+      width: 50px;
+      height: 98%;
+      display: none;
+      position: absolute;
+
+      opacity: 0;
+      z-index: 9;
+      cursor: pointer;
+
+      transition: opacity .2s;
+
+      color: #ff0000;
+      font-size: 30pt;
+      text-align: center;
+      line-height: 200px;
+      font-family: "Varela Round", sans-serif;
+      background-color: rgba(203, 57, 57, 0.59);
+      text-shadow: 0px 0px 15px rgb(119, 119, 119);
+    }
+
+    .thumbnail img {
+      width: 70px;
+      height: auto;
+      border: 2px solid ;
+    }
+
+    .alt-bubble {
+      margin-left: -16%;
+      position: absolute; /* Posición absoluta para que se superponga sobre la imagen */
+      background-color: rgb(255, 10, 10); /* Color de fondo */
+      color: #fff; /* Color del texto */
+      padding: 5px 5px; /* Espaciado interno */
+      border-radius: 5px; /* Borde redondeado */
+      font-size: 12px; /* Tamaño de fuente */
+      z-index: 1000; /* Capa superior para asegurar que esté por encima de otros elementos */
+      pointer-events: none; /* Evitar que la burbuja de mensaje bloquee eventos del ratón */
+      max-width: 200px; /* Ancho máximo de la burbuja */
+      white-space: nowrap; /* Evitar el ajuste de texto */
+      overflow: hidden; /* Ocultar el exceso de texto */
+      text-overflow: ellipsis; /* Agregar puntos suspensivos para el texto que no cabe */
+    }
+  }
+
+  @media (min-width: 610px) and (max-width:1200px) {
+    .thumbnail img {
+      width: 90px;
+      height: auto;
+      border: 1px solid #f9d4d4;
+
+    }
+  }
+
+
+  /**
+   * responsive for large than 768px screen
+   */

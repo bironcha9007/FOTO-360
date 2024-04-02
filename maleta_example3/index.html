@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>360 Product View :: Untitled project</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="360, 360 view, product view">
+  <meta name="generator" content="YoFLA.com 360 Product View Creator, Build #121, homepage: https://www.yofla.com/3d-rotate/creator">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="images360/white_vespa0000.jpg">
+  <style>
+    div.y360{
+        width: 500px;
+        height: 360px;
+        margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div
+	class="y360 y360__instance y360--svgRoundLight y360--controls-over y360--controls-justify-edges  auto-aspect-ratio auto-aspect-ratio__500x360 auto-aspect-ratio__modify-height-360"
+	data-y360='{"path":"","id":"soft6Sp6Z"}'
+	id="soft6Sp6Z"
+	>
+    
+            <div class="y360__placeholder">
+                <img src="imagesOriginal/white_vespa0000.jpg" class="y360__placeholder-image" />
+            </div>
+            
+	
+        <div class="y360-preloader y360-default-preloader y360-default-preloader--normal">
+            <div class="y360-preloader__bar y360-default-preloader__bar">
+            </div>
+            <div class="y360-default-preloader__text">
+                    <span class="y360-preloader-percent__text">
+                        0%
+                    </span>
+            </div>
+        </div>
+
+	<div class="y360__images">
+	</div>
+	<div class="y360__controls">
+		<button class="y360__button y360__button--play" title="toggle play">
+			<span class="button__icon button__icon--play" aria-label="play"></span>
+			<span class="button__text" aria-hidden="true">Play</span>
+		</button>
+
+		<button class="y360__button y360__button--left" title="step left">
+			<span class="button__icon button__icon--left" aria-label="step left"></span>
+			<span class="button__text" aria-hidden="true">Left</span>
+		</button>
+
+		<button class="y360__button y360__button--right" title="step right">
+			<span class="button__icon button__icon--right" aria-label="step right"></span>
+			<span class="button__text" aria-hidden="true">Right</span>
+		</button>
+
+		<button class="y360__button y360__button--fullscreen" title="toggle fullscreen">
+			<span class="button__icon button__icon--fullscreen" aria-label="toggle fullscreen"></span>
+			<span class="button__text" aria-hidden="true">Fullscreen</span>
+		</button>
+
+	</div>
+	<div class="y360__start-button"> </div>
+	
+</div>
+
+  <script src="config.js"></script>
+  <script src="yofla360.js"></script>
+  <script>
+        // start loading images or show start button / start image
+        y360.createPlayer("soft6Sp6Z")
+            .then(function (view) {
+            // view is initialized
+        })
+        .catch(function (error) {
+            // some error
+            console.log('error creating 360 view:', error)
+        });
+  </script>
+  <script src="autosize.js"></script>
+</body>
+</html>

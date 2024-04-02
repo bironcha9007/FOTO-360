@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black; width: 100%; ;
+
+}
+
+body::-webkit-scrollbar {
+  width: 0px; /* Ajusta el ancho de la barra de desplazamiento */
+  background-color: transparent; /* Establece el color de fondo de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Establece el color del pulgar de la barra de desplazamiento */
+}
+section {
+  position: relative;
+  width: 100%;
+height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+padding-top: 50px;
+  padding-bottom: 40px;
+  
+}
+
+.swiper-slide {
+  width: 290px;
+  height: 400px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(0px);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+
+}
+@keyframes aurora {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.304), 0 0 10px rgba(255, 128, 128, 0.7), 0 0 10px rgba(255, 170, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.291), 0 0 30px rgba(255, 0, 132, 0.7), 0 0 10px rgba(255, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.296), 0 0 30px rgba(221, 0, 255, 0.7), 0 0 20px rgba(0, 0, 0, 0.7);
+  }
+}
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide span {
+width: 100%;
+height: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 0, 0, 0));
+  padding: 12px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 10px 10px 0px 10px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "Consolas", monospace;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+
+.swiper-slide h1 {
+  color: #fff;
+  font-family: "Consolas", monospace;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 2px;
+  margin-top: 115px;
+  padding: 15px 0px 10px 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Consolas", monospace;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 2px;
+  margin-top: 115px;
+  padding: 15px 0px 10px 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Consolas", monospace;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px ;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.swiper-slide--one {
+  background: linear-gradient(to top, #000000, #00000000, #2c536400),
+    url("https://visualgraphicmd.com.co/pages/360/assets/images/card9.jpeg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #000000, #00000000, #2c536400),
+    url("https://visualgraphicmd.com.co/pages/360/assets/images/card2.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #000000, #00000000, #2c536400),
+    url("https://visualgraphicmd.com.co/pages/360/assets/images/card3.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #000000, #00000000, #2c536400),
+    url("https://visualgraphicmd.com.co/pages/360/assets/images/card5.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #000000, #00000000, #2c536400),
+    url("https://visualgraphicmd.com.co/pages/360/assets/images/card1.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+
